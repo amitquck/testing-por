@@ -1,11 +1,24 @@
-Q:- What is variable ?
-Q:- What var keyword?
-Q:- Why we need to variables in every programming language ?
-A:- let's assume we need to print any statement or text like any number, any string, or any other value one or more times, We assign the value to a variable and where it needs to be printed, variable is printed .
-    And in future, if we need to change the value of the variable.  we 'd change the value of the variable and it will automatically change the printed values in all places, where we printed the variable.
+Q:- What is a variable?
+A:- A variable is a storage area name, Which we give the specific name and assign the value.
+
+Q:- What "var" in JavaScript?
+A:- A var is a keyword, That is used to define the variable.
+
+Q:- Why do we need variables in every programming language?
+A:- In a programming language, we print any value many times in the code, but in the future, we need to change that value, so then we have to change that value everywhere.
+But we assign that value to some variable. So we just have to change the value of the variable. And the value will change automatically everywhere.
+
+
 Q:- Types of varible ?
-Q:- Scope of varibles ?
+A:- 
+    1:-Local variable
+    2:-Global variable
+    Local variable:- A variable that is declared inside the function or block is called a local variable. We can use it in block code. It is also called the local scope of the variable. 
+    Global variable:- A variable that is declared outside the function or block is called a global variable. We can use it anywhere in the code. It is also called the global scope of the variable. 
+
 Q:- Can we redeclare the variable ? if yes so explain it, if no so explain it .
+A:- Yes we can redeclare the variable if the variable are define with the var keyword.
+
 Q:- Can we reassign the new value to the variable ? if yes so explain it, if no so explain it.
 Q:- Can we use the number or special character at the beginning of variable name ?
 Q:- Can we use the number or special character at the end or between of variable names ?
